@@ -1,100 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Rowing & Time Management</title>
+    <meta charset="UTF-8">
+    <title>Rowing & Time Management</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-<link rel="stylesheet" href="styles.css" />
+
   <!-- Header with site name and navigation -->
-  <header>
-    <p><strong>Rowing &amp; Time Management</strong></p>
+  <header class="site-header">
+  <div class="container header-inner">
+    <p class="brand"><strong>Rowing &amp; Time Management</strong><span class="dot">.</span></p>
 
-    <nav>
-      <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#features">Lessons</a></li>
-        <li><a href="#featured">Experience</a></li>
-        <li><a href="#cta">Get Started</a></li>
-      </ul>
+    <nav class="site-nav">
+      <a href="#hero">Home</a>
+      <a href="#features">Lessons</a>
+      <a href="#featured">Experience</a>
+      <a href="#cta">Get Started</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main>
+  </section>  <!-- end CTA -->
+
+</main>
+
+<footer class="site-footer">
+  
+</footer>
 
     <!-- Hero section -->
-    <section id="hero">
-      <img src="images/hero.jpg" alt="Rowers practicing on the water" width="800">
-      <h1>What Rowing Taught Me About Time Management</h1>
-      <p>How discipline, routine, and early mornings shaped the way I manage my time.</p>
-      <p><a href="#features">Get Started</a></p>
-    </section>
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <h1>What Rowing Taught Me About Time Management</h1>
+    <p class="hero-subhead">How discipline, routine, and early mornings shaped the way I manage my time.</p>    <a href="#features" class="btn btn-dark">Get Started</a>
+  </div>
+</section>
 
     <!-- Features section (3 blocks) -->
-    <section id="features">
-      <h2>Key Lessons</h2>
+<section id="features" class="features">
+  <div class="container">
+    <h2>Key Lessons</h2>
 
-      <div>
+    <div class="features-grid">
+      <div class="feature">
         <h3>Planning Ahead</h3>
         <p>Rowing taught me to plan my schedule in advance to balance practice and academics.</p>
       </div>
 
-      <div>
+      <div class="feature">
         <h3>Prioritization</h3>
         <p>Busy weeks forced me to focus on what matters most instead of trying to do everything.</p>
       </div>
 
-      <div>
+      <div class="feature">
         <h3>Consistency</h3>
         <p>Daily routines made demanding schedules more manageable and less stressful.</p>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
     <!-- Featured content section -->
-    <section id="featured">
-      <h2>My Experience</h2>
-      <img src="images/featured.jpg" alt="Rowing practice during training" width="600">
-      <p>
-        Balancing rowing with academics required commitment and structure. Over time,
-        I learned how to manage my time intentionally and realistically.
-      </p>
-    </section>
+<section id="featured" class="featured">
+  <div class="container">
+    <h2 class="section-title">My Experience</h2>
 
-    <!-- Secondary content blocks -->
-    <section>
-      <h2>Additional Takeaways</h2>
+    <p class="section-lede">
+      Balancing rowing with academics required commitment and structure. Over time, I learned how to manage my time intentionally and realistically.
+    </p>
 
-      <div>
-        <img src="images/routine.jpg" alt="Planner and notebook representing a routine" width="300">
-        <h3>Discipline Through Routine</h3>
-        <p>Discipline comes from habits, not motivation. Consistent routines helped me stay focused.</p>
+    <img src="images/featured.jpg" alt="Rowing practice during training" style="max-width:100%; height:auto;">
+  </div>
+</section>
+
+    <!-- Secondary content (2 cards) -->
+<section class="secondary">
+  <div class="container">
+    <h2 class="section-title">Additional Takeaways</h2>
+
+    <div class="secondary-grid">
+      <div class="card">
+        <div class="card-text">
+          <h3>Discipline Through Routine</h3>
+          <p>Discipline comes from habits, not motivation. Consistent routines helped me stay focused.</p>
+          <a href="#cta" class="btn btn-outline">Learn More</a>
+        </div>
+        <div class="card-image img-a"></div>
       </div>
 
-      <div>
-        <img src="images/recovery.jpg" alt="Water bottle and towel representing recovery" width="300">
-        <h3>Avoiding Burnout</h3>
-        <p>Scheduling rest helped prevent burnout and maintain balance.</p>
+      <div class="card">
+        <div class="card-text">
+          <h3>Avoiding Burnout</h3>
+          <p>Scheduling rest helped prevent burnout and maintain balance.</p>
+          <a href="#cta" class="btn btn-outline">Learn More</a>
+        </div>
+        <div class="card-image img-b"></div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <!-- Call to action -->
-    <section id="cta">
-      <h2>Heard enough?</h2>
-      <p>Try planning tomorrow tonight.</p>
-      <p><a href="#hero">Get Started</a></p>
-    </section>
-
-  </main>
+<!-- Call to action -->
+<section id="cta" class="cta">
+  <div class="container cta-inner">
+    <h2>Heard enough?</h2>
+    <p>Try planning tomorrow tonight.</p>
+    <a href="#hero" class="btn btn-dark">Back to Top</a>
+  </div>
+</section>
 
   <!-- Footer -->
-  <footer>
-    <p>© 2026 Romy McCarthy</p>
-    <ul>
-      <li><a href="#hero">Back to top</a></li>
-      <li><a href="#features">Key lessons</a></li>
-    </ul>
-  </footer>
+  <footer class="site-footer">
+   <div class="container footer-inner">
+    <div class="footer-left">
+      <p>© 2026 Romy McCarthy</p>
+      <a href="#hero">Back to top</a>
+    </div>
 
-</body>
-</html>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Site</h4>
+        <a href="#hero">Home</a>
+        <a href="#features">Key Lessons</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>More</h4>
+        <a href="#featured">Experience</a>
+        <a href="#cta">Get Started</a>
+      </div>
+    </div>
+  </div>
+</footer>
